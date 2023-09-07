@@ -3,7 +3,7 @@
 public class LuckyTickets {
     public static void main(String[] args) {
         int count = 0;
-        for (int i = 100; i < 1_000; i++) {
+        for (int i = 49; i < 999; i++) {
             int sum = 0;
             int first = i;
 
@@ -16,6 +16,6 @@ public class LuckyTickets {
                 count++;
             }
         }
-        System.out.println(count * count); // 4761
+        System.out.println(count * count); // 5625
     }
 }
